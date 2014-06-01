@@ -17,4 +17,16 @@ Route::get('/', function()
 });
 
 Route::get('trades', 'TradeController@getIndex');
-Route::get('user', 'UserController@getIndex');
+Route::get('trade/{$id}' function($user) {
+	// Trade stuff
+});
+
+Route::get('users', 'UserController@getIndex');
+Route::get('user/{user}', function($user) {
+	// User
+});
+
+Route::get('items', 'ItemController@getIndex');
+Route::get('item/{item}', function($item) {
+	// Item
+});
