@@ -1,4 +1,19 @@
-WynncraftAuction
-================
-
+# Wynncraft Auction House
 Built on-top of Laravel, this project brings a web-based auction house to the community.
+
+## Yes it's Open Source
+The Wynncraft Auction House is community-driven and in that respect, its code is out here in the open - feel free to contribute by [opening an issue](https://github.com/Tama63/WynncraftAuction/issues/new) or by [opening a pull request](https://github.com/Tama63/WynncraftAuction/compare/).
+
+## What's Planned
+- [ ] User profile system
+   - [ ] Reputation system for traders
+   - [ ] Trade overviewe with current trades and history
+   - [ ] Displays stats from api.wynncraft.com
+- [ ] Item system
+    - [ ] Item directory fetches from api.wynncraft.com
+   - [ ] Each item will have price history - cron?
+- [ ] Auction/Trade system
+   - [ ] Deadline of up to 1 day
+   - [ ] After both users must approve to say the trade happened
+   - [ ] People bid emeralds
+   - [ ] If people get negative rep they get banned from the site
