@@ -13,5 +13,8 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home');
 });
+
+Route::get('trades', 'TradeController@getIndex');
+Route::get('user', 'UserController@getIndex');
