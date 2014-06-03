@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('pageTitle') :: Wynncraft Auction House</title>
+    <title>{{{$pageTitle}}} :: Wynncraft Auction House</title>
 
     <!-- Bootstrap -->
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/{{{ $theme or 'flatly' }}}bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
             <li{{Request::path() == 'home' ? ' class="active"' : '';}}><a href="{{{$siteURL}}}/home"><i class="fa fa-home"></i> Home</a></li>
             <li{{Request::path() == 'trades' ? ' class="active"' : '';}}><a href="{{{$siteURL}}}/trades"><i class="fa fa-shopping-cart"> Current</i> Current Trades</a></li>
             @if($user !== 'Guest')
-              <li{{Request::path() == 'user' . $user ? ' class="active"' : '';}}><a href="{{{$siteURL}}/user/{{{$user}}}"><i class="fa fa-user"></i> {{$user}}</a></li>
+              <li{{Request::path() == 'user' . $user ? ' class="active"' : '';}}><a href="{{{$siteURL}}/user/{{{$user}}}"><i class="fa fa-user"> {{{$user}}}/i> {{$user}}</a></li>
             @endif
           </ul>
         </div>
