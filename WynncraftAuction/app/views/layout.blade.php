@@ -46,6 +46,10 @@
     <!-- Actual page content -->
     <div class="container">
       @yield('content')
+      <hr/>
+      <footer>
+        <p class="pull-right">API &bull; Contribute &bull; Stats</p>
+      </footer>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
