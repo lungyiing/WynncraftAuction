@@ -9,13 +9,14 @@ The Wynncraft Auction House is community-driven and in that respect, its code is
 ## What's Planned
 - [ ] User profile system
    - [ ] Reputation system for traders
-   - [ ] Trade overviewe with current trades and history
+   - [ ] Trade overview with current trades and history
    - [ ] Displays stats from api.wynncraft.com
 - [ ] Item system
-    - [ ] Item directory fetches from api.wynncraft.com
+   - [ ] Item directory fetches from api.wynncraft.com
    - [ ] Each item will have price history - cron?
+   - [ ] Item average
 - [ ] Auction/Trade system
-   - [ ] Deadline of up to 1 day
+   - [ ] Deadline of up to 1 day - 6 hour intervals
    - [ ] After both users must approve to say the trade happened
    - [ ] People bid emeralds
    - [ ] If people get negative rep they get banned from the site
